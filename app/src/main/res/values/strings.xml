@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">nightly</string>
+    <string name="app_name">Nightly</string>
+    <string name="share_location">Share Location</string>
 </resources>
