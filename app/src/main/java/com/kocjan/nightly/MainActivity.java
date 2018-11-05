@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         shareLocation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Code here executes on main thread after user presses button
+
             }
         });
     }
