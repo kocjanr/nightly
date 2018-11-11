@@ -21,7 +21,8 @@
         <activity android:name=".SelectionOne" />
         <activity android:name=".SelectionTwo" />
         <activity android:name=".SelectionThree" />
-        <activity android:name=".VenueSelectionActivity"></activity>
+        <activity android:name=".VenueSelectionActivity" />
+        <activity android:name=".FeedbackActivity"></activity>
     </application>
 
 </manifest>

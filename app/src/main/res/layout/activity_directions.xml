@@ -17,13 +17,12 @@
 
     <ImageView
         android:id="@+id/club_image"
-        android:src="@drawable/map"
         android:layout_width="wrap_content"
         android:layout_height="200dp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="dfads asdfsdf asdf adf"/>
+        android:text="DIRECTIONS GO HERE"/>
 
 
 
