@@ -1,9 +1,12 @@
 package com.kocjan.nightly;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Selection;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private Button shareLocation;
@@ -17,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
         shareLocation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"Hello",Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, SelectionActivity.class);
+                startActivity(intent);
 
             }
         });
